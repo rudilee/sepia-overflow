@@ -1,0 +1,159 @@
+{
+	"name": "Sepia Overflow",
+	"type": "high contrast",
+	"colors": {
+		"focusBorder": "#4c6271",
+		"errorForeground": "#814852",
+		"icon.foreground": "#5d5d5caa",
+		
+		"input.background": "#c9c5bf",
+		"input.border": "#a49f98",
+		"dropdown.background": "#c9c5bf",
+		"dropdown.border": "#a49f98",
+		"button.background": "#50758e",
+		"button.hoverBackground": "#4c6271",
+		"textLink.foreground": "#4c6271",
+		"widget.shadow": "#969189",
+		
+		// Use when https://github.com/microsoft/vscode/issues/36490 is fixed
+		// "editor.selectionBackground": "#485e78",
+		// "editor.selectionForeground": "#a7a198",
+
+		"editor.background": "#a7a198",
+		"editor.foreground": "#5d5d5c",
+		"editor.selectionBackground": "#c5def5",
+		"editor.lineHighlightBackground": "#b0aba2",
+		"editor.wordHighlightBackground": "#bbb6ad",
+		"editor.wordHighlightStrongBackground": "#b0aba2",
+		"editorCursor.foreground": "#4a4b4a",
+		"editorError.foreground": "#814852",
+		"editorLineNumber.foreground": "#837e74",
+		"editorLineNumber.activeForeground": "#5d5d5c",
+		"editorBracketMatch.background": "#b0aba2",
+		"editorBracketMatch.border": "#b0aba2",
+		"editorWidget.background": "#bbb6ad",
+		"editorWidget.resizeBorder": "#9d734e",
+		"editorWidget.border": "#70716e",
+		"editorHoverWidget.background": "#bbb6ad",
+		"editorHoverWidget.border": "#70716e",
+		"editorGroup.border": "#9a968e",
+		"editorGroupHeader.tabsBackground": "#9c968c",
+		"editorOverviewRuler.errorForeground": "#814852",
+		"editorOverviewRuler.wordHighlightForeground": "#bbb6ad",
+		"editorOverviewRuler.wordHighlightStrongForeground": "#b0aba2",
+		
+		"tab.inactiveBackground": "#9c968c",
+		"tab.border": "#9c968c",
+		"tab.activeBorderTop": "#9d734e",
+		
+		"badge.background": "#50758e",
+		"badge.foreground": "#bbb6ad",
+		
+		"list.activeSelectionBackground": "#ada89f",
+		"list.activeSelectionForeground": "#2e2e2d",
+		"list.inactiveSelectionBackground": "#b4afa6",
+		"list.hoverBackground": "#ada89f",
+		"list.errorForeground": "#814852",
+		
+		"sideBarTitle.foreground": "#4c4e4c",
+		"sideBarSectionHeader.background": "#b4afa6",
+		
+		"settings.headerForeground": "#585958",
+		"settings.focusedRowBackground": "#939390",
+		
+		"scrollbar.shadow": "#969189",
+		"scrollbarSlider.background": "#908a8199",
+		"scrollbarSlider.hoverBackground": "#7f796f99",
+		"scrollbarSlider.activeBackground": "#5c5e5c99",
+
+		"activityBar.background": "#4b4a48",
+		"activityBarBadge.background": "#50758e",
+		"activityBar.foreground": "#bbb6ad",
+
+		"debugToolBar.background": "#bbb6ad",
+		"sideBar.background": "#bbb6ad",
+
+		"statusBar.background": "#9d734e",
+		"statusBar.foreground": "#bbb6ad",
+		"statusBar.noFolderBackground": "#7d776d"
+	},
+	"tokenColors": [
+		{
+			"name": "Comments",
+			"scope": [
+				"comment",
+				"punctuation.definition.comment"
+			],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#837e74"
+			}
+		},
+		{
+			"name": "Keywords",
+			"scope": [
+				"keyword",
+				"storage"
+			],
+			"settings": {
+				"fontStyle": "italic",
+			}
+		},
+		{
+			"name": "Numbers, Characters",
+			"scope": [
+				"constant.numeric",
+				"constant.character",
+				"constant"
+			],
+			"settings": {
+				"foreground": "#9d734e"
+			}
+		},
+		{
+			"name": "Strings",
+			"scope": "string",
+			"settings": {
+				// "foreground": "#4c6271"
+				"foreground": "#4c7151"
+			}
+		},
+		{
+			"name": "HTML: Doctype Declaration",
+			"scope": [
+				"meta.tag.sgml.doctype",
+				"meta.tag.sgml.doctype string",
+				"meta.tag.sgml.doctype entity.name.tag",
+				"meta.tag.sgml punctuation.definition.tag.html"
+			],
+			"settings": {
+				"foreground": "#98928a"
+			}
+		},
+		{
+			"name": "Extra: Diff Range",
+			"scope": [
+				"meta.diff.range",
+				"meta.diff.index",
+				"meta.separator"
+			],
+			"settings": {
+				"foreground": "#585958"
+			}
+		},
+		{
+			"name": "Extra: Diff From",
+			"scope": "meta.diff.header.from-file",
+			"settings": {
+				"foreground": "#585958"
+			}
+		},
+		{
+			"name": "Extra: Diff To",
+			"scope": "meta.diff.header.to-file",
+			"settings": {
+				"foreground": "#585958"
+			}
+		}
+	]
+}
